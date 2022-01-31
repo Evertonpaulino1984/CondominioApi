@@ -13,5 +13,8 @@ namespace CondominioApi.Domain
         public bool IsActive { get; set; }
         public int NumberFlat { get; set; }
         public string Quarter { get; set; }
+        public string ResidentName { get; set; }
+        public int ResidenteDocument { get; set; }
+
     }
 }
